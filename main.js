@@ -1,4 +1,4 @@
-if ($('form').eq(0).attr('action') === '/cgi-bin/login-wlan-2012.cgi') {
+if ($('form').eq(0).attr('action') === '/eccs/login-wlan-2016.cgi') {
     chrome.storage.sync.get({
         userid: '',
         password: ''
@@ -20,6 +20,6 @@ if ($('form').eq(0).attr('action') === '/cgi-bin/login-wlan-2012.cgi') {
             div.hide().appendTo($('body')).fadeIn('slow');
         }
     });
-} else if ($('h1').eq(0).text() === '無線LAN/携帯端末 ログイン終了') {
+} else if ($('h1').eq(0).text() === '携帯端末 ログイン終了') {
     location.href = $('a').eq(0).attr('href');
 }

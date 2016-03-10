@@ -13,7 +13,7 @@ UT WLAN Auto Login
 Requirements
 ------------
 
-OS X 10.10.1 + Google Chrome 45で動作確認を行った．基本的にはOS問わずGoogle Chrome上での利用を想定している．もしかしてSafariとかOperaとかでも使えるのかしら．
+OS X 10.10.1 + Google Chrome 49で動作確認を行った．基本的にはOS問わずGoogle Chrome上での利用を想定している．
 
 Install
 -------
@@ -22,6 +22,12 @@ Install
 2. Developer modeにチェックを入れる
 3. Load unpacked extension...をクリックし，manifest.jsonのあるディレクトリを指定する
 4. Optionsをクリックし，自分の認証情報を設定する
+
+Change Log
+----------
+
+- **0.0.2** (Mar 10, 2016): Response to ECCS 2016 updates
+- **0.0.1** (Oct 20, 2015): Initial release
 
 License
 -------

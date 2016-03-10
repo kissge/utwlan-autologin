@@ -1,13 +1,13 @@
 {
     "name": "UT WLAN Auto Login",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "KISUGE, Yuto",
     "manifest_version": 2,
-    "description": "東京大学の学内無線LANサービス（一部有線）の認証を自動で行う",
-    "permissions": ["https://scw.ecc.u-tokyo.ac.jp/cgi-bin/", "storage"],
+    "description": "東京大学の学内有線LANサービス（図書館、情報教育棟など）の認証を自動で行う",
+    "permissions": ["https://sweb2016.ecc.u-tokyo.ac.jp/eccs/", "storage"],
     "content_scripts": [
         {
-            "matches": ["https://scw.ecc.u-tokyo.ac.jp/cgi-bin/*"],
+            "matches": ["https://sweb2016.ecc.u-tokyo.ac.jp/eccs/*"],
             "js": ["jquery-2.1.1.min.js", "main.js"],
             "run_at": "document_end"
         }
